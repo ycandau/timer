@@ -1,3 +1,5 @@
+// timer2.js
+
 const readInput = () =>
   process.argv
     .slice(2)
