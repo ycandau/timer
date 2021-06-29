@@ -7,10 +7,7 @@ const readInput = () =>
 // Sound output not working
 const beep = () => console.log('Beep!');
 
-const setTimers = (delays) => {
-  delays.forEach((delay) => {
-    setTimeout(beep, delay * 1000);
-  });
-};
+const setTimers = (delays) =>
+  delays.forEach((delay) => setTimeout(beep, delay * 1000));
 
 setTimers(readInput());
